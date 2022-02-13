@@ -8,7 +8,7 @@ def hello(update: Update, context: CallbackContext) -> None:
 
 updater = Updater('5155754757:AAGHPpySj_7Zx1qmZD2eY9jTW98Co6fESNo')
 
-updater.dispatcher.add_handler(CommandHandler('hello', hello))
+updater.dispatcher.add_handler(CommandHandler('start', hello))
 
 updater.start_polling()
 updater.idle()
