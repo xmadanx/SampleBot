@@ -7,7 +7,7 @@ def start(update: Update, context: CallbackContext) -> None:
     update.message.reply_text(f'I am LoveQueenBot and I am here to Share Love <3')
 
 def hello(update: Update, context: CallbackContext) -> None:
-    update.message.reply_text(f'Mmm..Text to @madan_0xhof')
+    update.message.reply_text(f'Mmm..Text to @madan1742')
 
 updater = Updater('5245387008:AAGLGmulUKVsRhcRKgtIubuH9Q8w7aknpEU')
 
