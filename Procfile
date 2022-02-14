@@ -1,1 +1,1 @@
-worker : python3 start.py
+release : python3 start.py
